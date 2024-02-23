@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.prompt {
+    font-family: 'Railway', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.prompt > span, a {
+    padding: 12px;
+    text-align: center;
+}
+
+.prompt > a.cta {
+    text-decoration: solid underline #113892;
+    background-color: #113892;
+    color: #fff;
+    transition: 0.25s;
+}
+
+.prompt > a.cta:hover {
+    text-decoration: solid underline #fff;
+}
+
+.prompt > a > svg {
+    height: 1.25rem;
+    transform: translateY(4px);
+    width: auto;
+    fill: #fff;
+}
