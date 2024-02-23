@@ -13,6 +13,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 8px;
+    min-height: 49px;
 }
 
 .prompt > span, a {
@@ -36,4 +37,15 @@ body {
     transform: translateY(4px);
     width: auto;
     fill: #fff;
+}
+
+div.content {
+    background-color: aqua;
+    width: 100dvw;
+    height: calc(100dvh - 49px);
+}
+
+img {
+    width: 320px;
+    max-width: 50dvw;
 }
